@@ -8,7 +8,7 @@
 ```
 
 @author: 𓂀 𝒥-𝒳𝒶𝓃𝒹𝑒𝓇 𓂀<br>
-@version: 0.1.0<br>
+@version: 0.1.1<br>
 @since:  2024/09/27
 
 Imprime texto de colores en la terminal
