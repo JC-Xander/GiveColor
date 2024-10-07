@@ -9,7 +9,7 @@ setup(
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/JC-Xander/GiveColor',
-    download_url='',
+    download_url='https://github.com/JC-Xander/GiveColor/archive/refs/tags/0.1.0.zip',
     keywords=['Color', 'Terminal', 'font'],
     packages=find_packages(),
     install_requires=[],

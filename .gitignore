@@ -167,3 +167,4 @@ cython_debug/
 # test
 test.py
 requirements.txt
+.keys/
