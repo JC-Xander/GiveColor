@@ -1,20 +1,22 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='colore',
+    name='GiveColor',
     version='0.1.0',
-    author='Tu Nombre',
-    author_email='tu.email@example.com',
-    description='Un paquete para imprimir texto en colores en la terminal',
+    author='JC-Xander',
+    author_email='j.xanderoficial@gmail.com',
+    description='Un paquete para imprimir texto de colores en la terminal de Windows',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/tu_usuario/tu_proyecto',  # Cambia esto a tu repositorio
+    url='https://github.com/JC-Xander/GiveColor',
+    download_url='',
+    keywords=['Color', 'Terminal', 'font'],
     packages=find_packages(),
-    install_requires=[],  # Agrega dependencias si es necesario
+    install_requires=[],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        'Operating System :: Windows',
     ],
     python_requires='>=3.6',
 )

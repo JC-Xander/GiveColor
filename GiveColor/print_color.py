@@ -19,7 +19,6 @@ class Color(Enum):
 
 # Guardar la referencia original de la función print
 class Colored():
-
     def __init__(self) -> None:
         self.original_print = builtins.print
         builtins.print = self.color_print
@@ -47,8 +46,5 @@ class Colored():
             self.original_print(*values, sep=sep, end='', **kwargs)
             self.original_print(Color.DEFAULT)
 
-colore = Colored()
 
-if __name__ == 'main':
-    print('Hola', color=Color.RED)
 
