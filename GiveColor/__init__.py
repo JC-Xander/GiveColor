@@ -1,3 +1,4 @@
-from givecolor.print_color import Colored, Color
+from .print_color import Colored
+from .color import Fore, Back, Style
 
 Colored()
