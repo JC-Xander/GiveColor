@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='givecolor',
-    version='0.1.3',
+    version='0.1.4',
     author='JC-Xander',
     author_email='j.xanderoficial@gmail.com',
     description='Un paquete para imprimir texto de colores en la terminal de Windows',
