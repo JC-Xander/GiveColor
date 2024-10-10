@@ -78,7 +78,7 @@ class Colored():
                 elif not isinstance(style, Style):
                     style = DEFAULT
 
-            self.original_print(self.ansi_sequence(style, back, fore), end='')
+            self.original_print(self.ansi_sequence(style, back, fore), sep=sep, end=end)
             self.original_print(*values, sep=sep, end='', **kwargs)
             self.original_print(self.ansi_reset())
 
