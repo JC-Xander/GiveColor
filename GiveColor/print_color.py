@@ -78,9 +78,9 @@ class Colored():
                 elif not isinstance(style, Style):
                     style = DEFAULT
 
-            self.original_print(self.ansi_sequence(style, back, fore), sep=sep, end=end)
+            self.original_print(self.ansi_sequence(style, back, fore), sep=sep, end='')
             self.original_print(*values, sep=sep, end='', **kwargs)
-            self.original_print(self.ansi_reset())
+            self.original_print(self.ansi_reset(), end=end)
 
     def identify_ANSII(self, txt:str, selec_enum) -> int:
         """Verifica si la cadena de texto enviada concuerda con los paratros ANSI del la clase enum correspondiente enviada en el parametro selec_enum y retorna el numero correspondiente"""
